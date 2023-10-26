@@ -1,0 +1,67 @@
+{% extends 'dash/bases2.html' %}
+{% load static %}
+{% block 'main' %}
+
+
+      <!-- ============================================================== -->
+            <!-- Start Page Content here -->
+            <!-- ============================================================== -->
+
+            <div class="content-page">
+                    <div class="content">
+                        
+                        <!-- Start Content-->
+                        <div class="container-fluid">
+                            
+                            <!-- start page title -->
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="page-title-box">
+                                        <div class="page-title-right">
+                                            <ol class="breadcrumb m-0">
+                                                <li class="breadcrumb-item"><a href="{% url 'activate' %}"><b>Activate Account</b></a></li>
+                                                <li class="breadcrumb-item"><a href="{% url 'inactivate' %}"><b>Inactivate Account</b></a></li>
+                                                <li class="breadcrumb-item "><a href="{% url 'branched' %}"><b>Branched Account</b></a></li>
+                                            </ol>
+                                        </div>
+                                        <h4 class="page-title">Dashboard</h4>
+                                    </div>
+                                </div>
+                            </div>     
+                            <!-- end page title --> 
+    <br>
+            <!-- heading -->
+            <div class="conatiner">
+                    <h4 style="text-align: center;">Welcome to Customers</h4>
+                <p style="text-align: center;">Complete The Challenge Phases, Harness Your Trading Skills, And Get FundedNext Account!</p>
+            </div>
+           <br><br>
+            <div class="button-container"> 
+              <button class="super-button" id="myButton">Create New Account</button>
+            </div>
+    
+            <br><br>
+    
+     
+            <div class="box">
+                <h5 style="text-align: left;">Welcome User..!!!</h5>
+                <div class="button-container"> 
+                    <a href="{% url 'dashboard1' %}">
+                <button class="super-button" id="myButton">Dashboard</button></a>
+                </div>
+            </div>
+              
+            <br>
+
+            <div class="container">
+                    
+                    <div class="row">
+                              
+                        <div class="col d-flex align-items-center justify-content-center"> <!-- Center both horizontally and vertically -->
+                              <h2>You have no Activate account</h2>
+                              <img src="{% static 'assets\images\account\Questions-rafiki.png' %}" width="50%" height="70%" alt="" class="mx-auto">
+                        </div>
+                    </div>
+                </div>
+
+{% endblock 'main' %}

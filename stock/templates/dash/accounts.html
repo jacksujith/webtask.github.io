@@ -1,0 +1,157 @@
+{% extends 'dash/bases2.html' %}
+{% load static %}
+{% block 'main' %}
+
+
+
+  <br><br><br>
+
+            <!-- ============================================================== -->
+            <!-- Start Page Content here -->
+            <!-- ============================================================== -->
+
+            <div class="content-page">
+                <div class="content">
+                    
+                    <!-- Start Content-->
+                    <div class="container-fluid">
+                        
+                        <!-- start page title -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="page-title-box">
+                                    <div class="page-title-right">
+                                        <ol class="breadcrumb m-0">
+                                            <li class="breadcrumb-item"><a href="{% url 'accounts' %}"><b>Activate Account</b></a></li>
+                                            <li class="breadcrumb-item"><a href="{% url 'inactivate' %}"><b>Inactivate Account</b></a></li>
+                                            <li class="breadcrumb-item "><a href="{% url 'branched' %}"><b>Branched Account</b></a></li>
+                                        </ol>
+                                    </div>
+                                    <h4 class="page-title">Dashboard</h4>
+                                </div>
+                            </div>
+                        </div>     
+                        <!-- end page title --> 
+                            <br>
+                        <!-- heading -->
+                        <div class="conatiner">
+                                <h4 style="text-align: center;">Welcome to Customers</h4>
+                            <p style="text-align: center;">Complete The Challenge Phases, Harness Your Trading Skills, And Get FundedNext Account!</p>
+                        </div>
+                             <br><br>
+                        <div class="button-container"> 
+                        <button class="super-button" id="myButton">Create New Account</button>
+                        </div>
+
+                        <br><br>
+
+                
+                        <div class="box">
+                            <h5 style="text-align: left;">Welcome User..!!!</h5>
+                            <div class="button-container"> 
+                                <a href="{% url 'dashboard1' %}">
+                            <button class="super-button" id="myButton">Dashboard</button></a>
+                            </div>
+                        </div>
+                        
+                        <br>
+<!-- ====================================================================================================================== -->
+<!-- ---------------------------------------------------------------------------------------------------------------------- -->
+                                                      <!-- planing start -->
+<!-- ---------------------------------------------------------------------------------------------------------------------- -->
+<!-- ====================================================================================================================== -->
+          <div class="row row justify-content-center">
+            <div class="col-lg-9 center-page">
+                <div class="text-center">
+                    <h3 class="mb-3 mt-2">Choose your perfect plan</h3>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has <br/> been the industry's standard dummy text ever since the
+                        1500s.
+                    </p>
+                </div>
+
+                <div class="row mt-4 pt-3">
+
+                    <!--Pricing Column-->
+     
+                                    <!--Pricing Column-->
+                                    <article class="pricing-column col-md-4">
+                                        <div class="inner-box card-box">
+                                            <div class="plan-header text-white text-center bg-primary p-3 rounded">
+                                                <h3 class="plan-title text-uppercase text-white font-16">Starter Pack</h3>
+                                                <h2 class="plan-price text-white">$6,000</h2>
+                                                <div class="plan-duration">Per Month</div>
+                                            </div>
+                                            <ul class="plan-stats list-unstyled text-center">
+                                                <li><b>$</b>6,000</li>
+                                                <li><b>STELLAR</b> 2-STEP CHALLENGE</li>
+                                                <li><b>One Time Fee</b> $59 </li>
+                                                <li><b>Email</b> Support</li>
+                                                <li class="mb-0"><b>24x7</b> Support</li>
+                                            </ul>
+        
+                                            <div class="text-center mb-2">
+                                                <a href="{% url 'payment' %}" class="btn btn-outline-success btn-bordered width-lg btn-md width-md btn-bordred btn-rounded waves-effect waves-light">Sign Up</a>
+                                            </div>
+                                        </div>
+                                    </article>
+        
+        
+                                    <!--Pricing Column-->
+                                    <article class="pricing-column col-md-4">
+                                        <div class="inner-box card-box">
+                                            <div class="ribbon-pricing bg-danger rounded font-13 text-white"><b>POPULAR</b></div>
+                                            <div class="plan-header text-white text-center bg-primary p-3 rounded">
+                                                <h3 class="plan-title text-white text-uppercase font-16">Professional Pack</h3>
+                                                <h2 class="plan-price text-white">$15,000</h2>
+                                                <div class="plan-duration">Per Month</div>
+                                            </div>
+                                            <ul class="plan-stats list-unstyled text-center">
+                                                <li><b>$</b>15,000</li>
+                                                <li><b>STELLAR </b> 2-STEP CHALLENGE</li>
+                                             
+                                                <li><b>One Time Fee </b>$119</li>
+                                                <li><b>Email</b> Support</li>
+                                                <li class="mb-0"><b>24x7</b> Support</li>
+                                            </ul>
+        
+                                            <div class="text-center mb-2">
+                                                <a href="#" class="btn btn-success width-lg btn-md width-md btn-bordred btn-rounded waves-effect waves-light">Sign Up</a>
+                                            </div>
+                                        </div>
+                                    </article>
+        
+        
+                                    <!--Pricing Column-->
+                                    <article class="pricing-column col-md-4">
+                                        <div class="inner-box card-box">
+                                            <div class="plan-header text-white text-center bg-primary p-3 rounded">
+                                                <h3 class="plan-title text-white text-uppercase font-16">Enterprise Pack</h3>
+                                                <h2 class="plan-price text-white">$25,000</h2>
+                                                <div class="plan-duration">Per Month</div>
+                                            </div>
+                                            <ul class="plan-stats list-unstyled text-center">
+                                                <li><b>$</b> 25,000</li>
+                                                <li><b>STELLAR</b> 2-STEP CHALLENGE </li>
+                                                <li><b>One Time Fee</b> $199</li>
+                                              
+                                                <li><b>Email</b> Support</li>
+                                                <li class="mb-0"><b>24x7</b> Support</li>
+                                            </ul>
+        
+                                            <div class="text-center mb-2">
+                                                <a href="#" class="btn btn-outline-success width-lg btn-md width-md btn-bordred btn-rounded waves-effect waves-light">Sign Up</a>
+                                            </div>
+                                        </div>
+                                    </article>
+        
+                                </div>
+                            </div><!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        
+                    </div> <!-- end container-fluid -->
+
+                </div> <!-- end content -->
+ {% endblock 'main' %}
